@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    #a{
+        color: rgb(121, 62, 72);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35px;
+        margin-right: 30px;
+    }
+    .act{
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .profile{
+        margin-top: 15px;
+    }
+    #k{
+        margin-top: 10px;
+    }
+    .cart{
+        margin-left: 800px;
+        margin-top: -43px;
+    }
+    #c{
+        margin-left: 130px;
+        padding-top: -70px;
+    }
+    .co{
+        margin-top: -20px;
+    }
+    .one{
+        margin-left: 10px;
+
+    }
+    .one:hover{
+        border: none;
+        border-bottom: 3px solid  rgb(121, 62, 72);
+    }
+    .two{
+        border: none;
+        border-bottom: 1px solid black;
+        border-color:  rgb(121, 62, 72);
+        width: 280px;
+        margin-left: 210px;
+        margin-top: 20px;
+    }
+    #r{
+      margin-top: -20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .b{
+      border: none;
+      border-bottom: 1px solid rgb(121, 62, 72);
+      width: 240px;
+      margin-left: 1050px;
+      margin-top: -27px;
+    }
+    .cons{
+      margin-left: -20px;
+      
+    }
+    #three{
+      margin-top: 120px;
+      border: 1px solid rgb(219, 214, 214);
+      border-radius: 15px;
+
+    
+      
+    }
+    #th{
+      border: 1px solid rgb(219, 214, 214);
+      margin-left: 230px;
+      margin-top: -100px;
+    }
+    #im{
+      margin-left: 180px;
+      margin-top: 100px;
+    }
+    .font{
+      font-family:  Cooper Black;
+      margin-top: -560px;
+      margin-left: 760px;
+      font-size: 50px;
+      color: rgb(248, 97, 122);
+      text-shadow: 4px 3px white;
+    }
+
+   a img{
+      border: 2px solid black;
+      width: 380px;
+      
+    }
+            #desc{
+
+                  padding: 0px;
+                  text-align: justify;
+                }
+    *{
+
+        box-sizing: border-box;
+    }
+    #responce{
+
+            padding :0 80px;
+            float: left;
+            width:30%;
+}
+#sam{
+  margin-top: -40px;
+}
+#responce{
+          display: inline-flex;
+}
+
+
+    </style>
+</head>
+<body data-spy="scroll" data-target=".myInput" data-offset="50">
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+        
+      <a class="navbar-brand" id="a">meesho</a>
+    </div>
+    <form class="navbar-form navbar-left" action="">
+        <div class="input-group">
+         <div class="input-group-btn">
+          <input type="text" class="form-control" placeholder="Search" name="search" id="myInput" onkeyup="searchFun()">
+
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+       
+    <ul class="nav navbar-nav">
+      <li class="act"><a href="#">App Downloder</a></li>
+      <li class="act"><a href="#">Become a Sippiler</a></li>
+      <li class="act"><a href="#">NewsRoom</a></li>
+      <a href="#" id="k">Profile</a><li class="profile">
+        <span class="glyphicon glyphicon-user"></span></li><br><br>
+      <a href="#" id="c">Cart</a><li class="cart">
+        <span class="glyphicon glyphicon-shopping-cart"></span></li>
+    </ul>
+    
+  </div>
+</nav>
+
+<div class="co">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="one"><a href="#">Women Ethnic</a></li>
+        <li class="one"><a href="#">Wemen Western</a></li>
+        <li class="one"><a href="#">Men</a></li>
+        <li class="one"><a href="#">Kids</a></li>
+        <li class="one"><a href="#">Home & Kitchen</a></li>
+        <li class="one"><a href="#">Beauty & Health</a></li>
+        <li class="one"><a href="#">Jewellery & Accessories</a></li>
+        <li class="one"><a href="#">Bags & Footwear</a></li>
+        <li class="one"><a href="#">Electronics</a></li>
+        <li class="one"><a href="#">Sports & Fitness</a></li>
+        <li class="one"><a href="#">Car & Moterbike</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  
+
+<div class="container">
+ <img src="mesho1.webp" width="1100px" height="500px">
+</div><br><br>
+<div class="two"></div><h1 align="center" id="r">Top Categories to choose from</h1><div class="b"></div>
+<img id="im" src="background yellow.jpeg" width="1200px" height="620px"> 
+<h1 class="font"><b>Be fashion forward</b></h1>
+
+<div class="cons">
+ <a href="https://www.meesho.com/women-store/pl/3g5o" > <img id="th" src="womenmesho.webp" width="450px" height="570px"> </a>
+ <a href="https://www.meesho.com/men-store/pl/3g5p"> <img id="three" src="mensmesho.webp" width="100px" height="350px"> </a>
+ <a href="https://www.meesho.com/kids-store/pl/3g5q"> <img id="three" src="messho2.webp" width="300px" height="350px"></a>
+</div> 
+<br><br><br>
+</div>
+
+<table id="myTable" > 
+  <div id="responce">
+    <div id="galary">
+     
+      <tr>    <td><a href="#">
+            <img src="narzo61.jpeg" width="300px" height="250px" style="margin-left: 130px;">
+        
+        <div id="desc" style="margin-left: 130px;">realme NARZO N61 (Voyage Blue,4GB RAM+64GB Storage)<br> 90Hz Eye Comfort Display | IP54 Dust & Water Resistance |<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48-Month Fluency | Charger in The Box.</div>
+      </a>
+        </td>
+  </tr>
+    
+  
+
+    <tr >
+       <td> <a href="#">
+            <img src="real12x.jpeg" width="300" height="250px" style="margin-left: 580px; margin-top: -390px;">
+        
+        <div id="desc" style="margin-left: 580px; margin-top: -80px;">realme 12x 5G (Twilight Purple, 8GB RAM, 128GB Storage) | <br>Upto 16GB (8+8GB) Dynamic RAM | Dimensity 6100+ Processor|<br> 50 MP AI Camera |7.69 mm Ultra-Slim Trendy Watch Design |<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 45 W SUPERVOOC Charge. </div>
+      </a>
+      </td>
+    </tr>
+    <tr>
+       <td> <a href="#">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="oppo f27.jpeg" width="300" height="250px" style="margin-left: 1000px; margin-top: -430px;">
+        
+        <div id="desc" style="margin-left: 1000px; margin-top: -100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPPO F27 Pro+ 5G (Dusk Pink, 8GB RAM, 256GB Storage)|<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.7" FHD+ AMOLED 3D Curved Display|64MP AI Featured <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Camera|IP69 | 67W SUPERVOOC| with No Cost EMI/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Additional Exchange Offers.</div>
+        </a><br><br>
+        </td>
+        </tr>
+      
+        <tr>
+        <td><a href="#">
+            <img src="oppo a3.jpg" width="390px" height="250px" style="margin-left: 130px;">
+        
+        <div id="desc" style="margin-left: 130px;">OPPO A3 Pro 5G (Moonlight Purple, 8GB RAM, 128GB Storage)|<br>6.67” HD+ 120Hz Refresh Rate Screen | 45W SUPERVOOC|<br>with No Cost EMI/Additional Exchange Offers. </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </a> 
+      </td>
+   </tr>
+  </div>
+ </div>  
+
+  <tr>
+      <td>
+        <a href="#">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="sam" src="samsung s24 ultra.jpeg" width="300" height="250px" style="margin-left: 560px; margin-top: -430px;">
+       
+        <div id="desc" style="margin-left: 560px; margin-top: -100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Samsung Galaxy S24 Ultra 5G AI Smartphone<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Titanium Gray, 12GB, 512GB Storage) -9% rs.1,31,999.</div>
+      </a>
+      </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="#">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img id="sam" src="Samsung _Galaxy_a15.jpeg" width="300" height="250px" style="margin-left: 1000px; margin-top: -430px;">
+         
+          <div id="desc" style="margin-left: 1075px; margin-top: -99px;">SAMSUNG Galaxy F15 5G <br> (Groovy Violet, 128 GB)(6 GB RAM).</div>
+        </a>
+        </td>
+        </tr>
+    
+        </div>
+  </div>
+</table>
+
+   
+    
+
+
+<script>
+  function searchFun()
+{
+
+let filter=document.getElementById('myInput').value.toUpperCase();
+let myTable=document.getElementById('myTable');
+let tr=myTable.getElementsByTagName('tr');
+for(var i=0;i<tr.length;i++)
+{
+let td=tr[i].getElementsByTagName('td')[0];
+if(td) 
+{
+
+  let textvalue=td.textContant || td.innerHTML;
+  if(textvalue.toUpperCase().indexOf(filter)>-1)
+  {
+
+    tr[i].style.display="";
+  }
+  else{
+    tr[i].style.display="none";
+
+  }
+}
+}
+}
+</script>
+
+</form>
+<div class="container">
+  <img src="view all.jpeg" width="1150PX" height="450px">
+  <h1 style="margin-left: 130px; margin-top: -350px; color: rgb(186, 55, 77); border: 1px solid pink; width: 400px; text-shadow: 2px 2px white; font-size: 50px; font-family: Cooper Black;;"><b>Essentials</b></h1>
+  <a href="https://www.meesho.com/essentials/pl/" style="margin-left: 130px; color: white; font-size: 28px; border: 1px solid pink; width: 200px; height background-color: rgb(184, 20, 47); text-decoration: none; box-sizing: border; border-radius: 10px;"><b>View All</b></a><br>
+  
+</div>
+<img src="home decor.webp" width="180px" height="310px" style="margin-left: 670px; margin-top: -180px;">
+ <img src="kitchen.webp" width="180px" height="310px" style="margin-top: -180px; margin-left: 30px;"> 
+  <img src="helth.webp" width="180px" height="310px" style="margin-top: -180px; margin-left: 40px;">
+  <p class="op">
+      <a href="https://www.meesho.com/home-decor/pl/3tl" style="margin-bottom: 1100px; margin-left: 700px; text-decoration: none;  border: 2px solid black; background-color: pink; color: white; font-size: 20px; width: 100px;">Home Decor</a>
+      <a href="https://www.meesho.com/kitchen-accessories/pl/1i3z" style="margin-top: 100px; margin-left: 70px; text-decoration: none;  border: 2px solid black; background-color: pink; color: white; font-size: 20px; width: 100px;">Kitchen Aooliances</a>
+      <a href="https://www.meesho.com/skincare/pl/5kw" style="margin-top: 100px; margin-left: 80px; text-decoration: none; border: 2px solid black; background-color: pink; color: white; font-size: 20px; width: 100px;">Health Care</a>
+  </p>
+  <br><br><br><br><br><br>
+  <h1 class="j"><img src="newstyele.jpeg" width="1150px" height="500px" style="margin-left: 190px;"></h1>
+  <h1 style="margin-top: -350px; margin-left: 300px; text-shadow: 3px 3px rgb(172, 15, 42); color: rgb(240, 158, 158); font-size: 55px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>New Style</b></h1>
+  <a href="https://www.meesho.com/electronics/pl/45g" style="margin-left: 340px; font-size: 40px; color: white; text-shadow: 2px 2px rgb(172, 15, 42); text-decoration: none; border: 1px solid pink; background-color: rgb(248, 97, 122);">View All</a>
+  <div class="container">
+    <a href=""><img src="</a>
+  </div>
+</body>
+</html>
+
